@@ -18,8 +18,8 @@ public class HomeController : Controller
         return View();
     }
     public IActionResult Comenzar(){
-        ViewBag.EstadoJuego = escape.GetEstadoJuego();
-        return View(ViewBag.EstadoJuego);
+        int Salacorrecta = escape.GetEstadoJuego();
+        return View ("Habitacion" + (Salacorrecta));
     }
     public IActionResult Tutorial(){
         return View();
@@ -35,16 +35,16 @@ public class HomeController : Controller
                     return View ("Victoria");
                 }
                 else{
-                    return View ("Habitacion" + Salacorrecta+1);
+                    return RedirectToAction("Comenzar");
                 }
             }
             else{
-                ViewBag.Error = clave;
-                return View ("Habitacion" + Salacorrecta);
+                ViewBag.Error = "clave incorrecta";
+                return View ("Habitacion" + (Salacorrecta-1));
             }
         }
         else{
-            return View ("Habitacion" + Salacorrecta);
+            return View ("Habitacion" + (Salacorrecta-1));
         }
     }
 }

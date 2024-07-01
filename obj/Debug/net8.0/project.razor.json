@@ -19344,6 +19344,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\Home\\Habitacion1.cshtml",
+      "TargetPath": "Views\\Home\\Habitacion1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
