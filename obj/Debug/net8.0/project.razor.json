@@ -19349,6 +19349,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\Shared\\Index.cshtml",
+      "TargetPath": "Views\\Shared\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\Home\\Habitacion0.cshtml",
+      "TargetPath": "Views\\Home\\Habitacion0.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -19356,11 +19366,6 @@
     {
       "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\Home\\Tutorial.cshtml",
       "TargetPath": "Views\\Home\\Tutorial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_Huberman_Rozenbeim_Dyner\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

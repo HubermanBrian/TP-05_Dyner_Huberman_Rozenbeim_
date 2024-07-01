@@ -19,16 +19,19 @@ public class HomeController : Controller
     }
     public IActionResult Comenzar(){
         int Salacorrecta = escape.GetEstadoJuego();
-        return View ("Habitacion" + (Salacorrecta));
+        ViewBag.Sala = Salacorrecta;
+        return View ("Habitacion" + (Salacorrecta-1));
     }
     public IActionResult Tutorial(){
         return View();
     }
     public IActionResult Habitacion(int sala, string clave)
     {
+        Console.WriteLine("entra principal");
         int Salacorrecta = escape.GetEstadoJuego();
         if(sala -1 == escape.GetEstadoJuego())
         {
+            Console.WriteLine("entra secudaria");
             if(escape.ResolverSala(sala, clave))
             {
                 if(sala-1 == escape.ContarSalas()){
@@ -36,6 +39,7 @@ public class HomeController : Controller
                 }
                 else{
                     return RedirectToAction("Comenzar");
+                    Console.WriteLine("entra terciaria");
                 }
             }
             else{

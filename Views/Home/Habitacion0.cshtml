@@ -1,6 +1,8 @@
-<h1>Titulo 2345</h1>
+<h1>Titulo</h1>
 <p>Un texto relatando lo que se encuentra en la sala y lo que hay que hacer</p>
 <form action='@Url.Action("Habitacion")'> 
+    <input type = "hidden" name = sala value = @ViewBag.Sala>
+    <h1>@ViewBag.Sala</h1>
     <label><input type="text" name="clave"required/></label>
     <input type="submit"/>
 </form>

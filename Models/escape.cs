@@ -7,7 +7,7 @@ private static int estadoJuego = 1;
 private static void InicializarJuego()
 {
     incognitasSalas = new string [5];
-    incognitasSalas [0] = " ";
+    incognitasSalas [0] = "sdsds";
     incognitasSalas [1] = " ";
     incognitasSalas [2] = " ";
     incognitasSalas [3] = " ";

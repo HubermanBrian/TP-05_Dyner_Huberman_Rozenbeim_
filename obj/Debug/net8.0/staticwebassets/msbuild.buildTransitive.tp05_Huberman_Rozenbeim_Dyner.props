@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\tp05_Huberman_Rozenbeim_Dyner.props" />
+</Project>
