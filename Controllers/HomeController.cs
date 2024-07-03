@@ -42,12 +42,13 @@ public class HomeController : Controller
                 }
             }
             else{
-                ViewBag.Error = "clave incorrecta";
-                return RedirectToAction("Comenzar");
+                ViewBag.Clave = "clave incorrecta";
+                return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
             }
         }
-        else{
-            return RedirectToAction("Comenzar");
+        else if (){
+            ViewBag.ErrorSala = "sala incorrecta";
+            return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
         }
     }
 }

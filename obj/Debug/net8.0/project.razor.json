@@ -19329,6 +19329,11 @@
   "RootNamespace": "tp05_Huberman_Rozenbeim_Dyner",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_huberman_dyner_rozenbeim\\TP-05_Dyner_Huberman_Rozenbeim_\\Views\\Home\\Habitacion2.cshtml",
+      "TargetPath": "Views\\Home\\Habitacion2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\48179712\\Desktop\\tp05_huberman_dyner_rozenbeim\\TP-05_Dyner_Huberman_Rozenbeim_\\Views\\Home\\Habitacion0.cshtml",
       "TargetPath": "Views\\Home\\Habitacion0.cshtml",
       "FileKind": "mvc"
