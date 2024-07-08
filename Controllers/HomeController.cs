@@ -46,8 +46,12 @@ public class HomeController : Controller
                 return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
             }
         }
-        else if (){
+        else if (escape.ResolverSala(sala, clave)){
             ViewBag.ErrorSala = "sala incorrecta";
+            ViewBag.Clave = "clave correcta";
+            return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
+        }
+        else{
             return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
         }
     }
