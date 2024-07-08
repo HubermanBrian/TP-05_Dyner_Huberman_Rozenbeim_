@@ -8,16 +8,31 @@ html {
     font-size: 16px;
   }
 }
-
+*{
+  margin: 0%;
+  padding: 0%
+  border solid white 1px;
+}
 body {
   margin: 10px;
   padding: 10px;
 }
-
 
 footer {
   margin-top: 10px;
   padding: 10px;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
+}
+.inicio {
+  background-image: url("../Img/carleto_oficina.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header{
+  text-align: center;
+  color: #ffffff;
+}
+div{
+  height: 800px;
 }

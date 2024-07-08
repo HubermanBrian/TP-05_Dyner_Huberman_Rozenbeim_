@@ -1,16 +1,27 @@
-<h1>Titulo 2345</h1>
-<p>Un texto relatando lo que se encuentra en la sala y lo que hay que hacer</p>
-@if(ViewBag.ErrorSala != null){
-    <p>@ViewBag.ErrorSala</p>
-}
-@if(ViewBag.Clave != null){
-    <p>@ViewBag.Clave</p>
-}
-<form action='@Url.Action("Habitacion")'> 
-    <h1>@ViewBag.Sala</h1>
-    <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" required/></label>
-    <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
-    <input type="submit"/>
-</form>
-<button>Pista 1: botones que dan pistas para adivinar la clave.</button>
-<button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+<body>
+     <header>
+        <img src="~/Img//"> logo
+        <h1>Nombre</h1>
+        <p>Slogan</p>
+    </header>
+    <main>
+        <h1>Titulo 2345</h1>
+        <p>Un texto relatando lo que se encuentra en la sala y lo que hay que hacer</p>
+        @if(ViewBag.ErrorSala != null){
+            <p>@ViewBag.ErrorSala</p>
+        }
+        @if(ViewBag.Clave != null){
+            <p>@ViewBag.Clave</p>
+        }
+        <form action='@Url.Action("Habitacion")'> 
+            <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" required/></label>
+            <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
+            <input type="submit"/>
+        </form>
+        <button>Pista 1: botones que dan pistas para adivinar la clave.</button>
+        <button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+
+    </main>
+    
+</body>
+   
