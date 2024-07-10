@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48179712\\Desktop\\Escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
+      "projectUniqueName": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
       "projectName": "tp05_Huberman_Rozenbeim_Dyner",
-      "projectPath": "C:\\Users\\48179712\\Desktop\\Escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
+      "projectPath": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
       "packagesPath": "C:\\Users\\48179712\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48179712\\Desktop\\Escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\obj\\",
+      "outputPath": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

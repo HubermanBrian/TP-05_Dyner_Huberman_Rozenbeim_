@@ -17,42 +17,79 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Comenzar(){
-        ViewBag.Sala =  escape.GetEstadoJuego();
-        return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
+    public IActionResult Comenzar()
+    {
+        ViewBag.Sala = escape.GetEstadoJuego();
+        return View("Habitacion" + (escape.GetEstadoJuego() - 1));
     }
-    public IActionResult Tutorial(){
+    public IActionResult Tutorial()
+    {
         return View();
     }
     public IActionResult Habitacion(int sala, string clave)
     {
         Console.WriteLine("entra principal");
-       
-        if(sala == escape.GetEstadoJuego())
+
+        if (sala == escape.GetEstadoJuego())
         {
             Console.WriteLine("entra secudaria");
-            if(escape.ResolverSala(sala, clave))
+            if (escape.ResolverSala(sala, clave))
             {
-                if(sala == escape.ContarSalas()){
-                    return View ("Victoria");
+                if (sala == escape.ContarSalas())
+                {
+                    return View("Victoria");
                 }
-                else{
+                else
+                {
                     Console.WriteLine("entra terciaria");
                     return RedirectToAction("Comenzar");
                 }
             }
-            else{
+            else
+            {
                 ViewBag.Clave = "clave incorrecta";
-                return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
+                return View("Habitacion" + (escape.GetEstadoJuego() - 1));
             }
         }
-        else if (escape.ResolverSala(sala, clave)){
+        else if (escape.ResolverSala(sala, clave))
+        {
             ViewBag.ErrorSala = "sala incorrecta";
             ViewBag.Clave = "clave correcta";
-            return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
+            return View("Habitacion" + (escape.GetEstadoJuego() - 1));
         }
-        else{
-            return View ("Habitacion" + ( escape.GetEstadoJuego()-1));
+        else
+        {
+            return View("Habitacion" + (escape.GetEstadoJuego() - 1));
         }
+    }
+    public IActionResult Juego1(string Jugador)
+    {
+        Console.WriteLine("entra binker1");
+        List<string> Jugadores = new List<string> { "NAVAS", "CARVAJAL", "RAMOS","VARANE","MARCELO","CASEMIRO","KROOS","MODRIC","ISCO","BENZEMA","RONALDO"};
+        string incognita;
+        incognita = Jugador.ToUpper();
+        int i = 0;
+        bool encontrado = false;    
+        while (encontrado != true && Jugadores.Count > i)  
+        {
+            Console.WriteLine(Jugador);
+            
+            if (Jugadores[i] == incognita)
+            {
+                Jugadores.RemoveAt(i);
+                ViewBag.Jugador = Jugador + "esta en este plantel";
+                encontrado = true;
+            }
+            else
+            {
+                i++;
+            }
+            
+        }
+        if(Jugadores.Count > i)
+        {
+            ViewBag.Jugador = Jugador + "no esta en este plantel";
+        }
+        return View("Habitacion0");
     }
 }
