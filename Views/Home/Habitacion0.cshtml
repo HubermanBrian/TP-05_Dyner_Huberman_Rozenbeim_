@@ -6,17 +6,38 @@
 @if(ViewBag.Clave != null){
     <p>@ViewBag.Clave</p>
 }
-<h4>@ViewBag.Jugador</h4>
-<button>Pista 1: botones que dan pistas para adivinar la clave.</button>
-<form action='@Url.Action("Juego1")'> 
-    <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
-    <input type="submit"/>
-</form>
-<button>Pista 2: botones que dan pistas para adivinar la clave.</button>
 
-<form action='@Url.Action("Habitacion")'> 
-    <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" /></label>
-    <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" /></label>
-    <input type="submit"/>
-</form>
+<button>Pista 1: botones que dan pistas para adivinar la clave.</button>
+
+<button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+@if(ViewBag.Terminado!= null)
+{
+     @if(ViewBag.Terminado)
+    {
+        <form action='@Url.Action("Habitacion")'> 
+            <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" /></label>
+            <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" /></label>
+            <input type="submit"/>
+        </form>
+    }
+    else
+    {
+        <form action='@Url.Action("Juego1")'> 
+            <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
+            <input type="submit"/>
+        </form>
+        <h4>@ViewBag.Jugador</h4>
+    }
+}else{
+    <form action='@Url.Action("Juego1")'> 
+            <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
+            <input type="submit"/>
+    
+    </form>
+        <h4>@ViewBag.Jugador</h4>
+}
+
+   
+
+
 

@@ -62,6 +62,7 @@ public class HomeController : Controller
             return View("Habitacion" + (escape.GetEstadoJuego() - 1));
         }
     }
+
     public IActionResult Juego1(string Jugador)
     {
         Console.WriteLine("entra binker1");
@@ -69,7 +70,9 @@ public class HomeController : Controller
         string incognita;
         incognita = Jugador.ToUpper();
         int i = 0;
-        bool encontrado = false;    
+        bool encontrado = false; 
+        ViewBag.Terminado = false;   
+        int aciertos = 0;
         while (encontrado != true && Jugadores.Count > i)  
         {
             Console.WriteLine(Jugador);
@@ -77,18 +80,24 @@ public class HomeController : Controller
             if (Jugadores[i] == incognita)
             {
                 Jugadores.RemoveAt(i);
-                ViewBag.Jugador = Jugador + "esta en este plantel";
+                ViewBag.Jugador = Jugador + " esta en este plantel";
                 encontrado = true;
+                aciertos ++;
             }
             else
             {
                 i++;
+                
             }
             
         }
-        if(Jugadores.Count > i)
+        if(encontrado == false){
+            ViewBag.Jugador = Jugador + " no esta en este plantel";
+        }
+
+        if (aciertos == 11)
         {
-            ViewBag.Jugador = Jugador + "no esta en este plantel";
+           ViewBag.Terminado = true;
         }
         return View("Habitacion0");
     }

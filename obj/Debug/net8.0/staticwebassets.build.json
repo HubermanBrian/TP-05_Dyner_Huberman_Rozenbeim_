@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a7whOQ0gpHR/asDoBZJrOjx3HPBWQcUZvHdsQkQJZG4=",
+  "Hash": "93Raop47Q1qWYQgYaz9bx9xFN/w+KeNpftl6xaOdjP4=",
   "Source": "tp05_Huberman_Rozenbeim_Dyner",
   "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "tp05_Huberman_Rozenbeim_Dyner\\wwwroot",
       "Source": "tp05_Huberman_Rozenbeim_Dyner",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\css\\site.css",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\favicon.ico",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/carleto_oficina.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\carleto_oficina.png"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\js\\site.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escape\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
