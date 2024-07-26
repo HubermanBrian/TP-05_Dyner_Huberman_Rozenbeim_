@@ -16,9 +16,13 @@
         <label><input type="hidden" name="sala" value="3" /></label>
         <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
         <input type="submit"/>
+        <p>Dato importante, el primer apellido de nuestra joven promesa es @ViewBag.Nombre</p>
         </form>
     }else
     {
+        <p>@ViewBag.Jugador1</p>
+        <p>@ViewBag.Jugador2</p>
+        <p>@ViewBag.Jugador3</p>
         <button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
         @if(!ViewBag.Resultado1)
         {

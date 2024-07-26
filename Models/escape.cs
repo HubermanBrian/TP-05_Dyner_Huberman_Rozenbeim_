@@ -10,7 +10,7 @@ private static void InicializarJuego()
     incognitasSalas [0] = "RM1524";
     incognitasSalas [1] = "VRR";
     incognitasSalas [2] = "KJN";
-    incognitasSalas [3] = "Matheus Da Silva Riveiro Jr";
+    incognitasSalas [3] = "MATHEUS DA SILVA RIVEIRO JR";
 }
 
 public static int GetEstadoJuego()
@@ -21,7 +21,7 @@ public static bool ResolverSala(int Sala, string Incognita)
 {
     InicializarJuego();
     if(Sala == estadoJuego){
-        if(Incognita == incognitasSalas[Sala-1]){
+        if(Incognita.ToUpper() == incognitasSalas[Sala-1]){
             estadoJuego++;
         return true;
         }

@@ -164,30 +164,30 @@ public class HomeController : Controller
             
             if (incognita1 == "KAKA")
             {
-                ViewBag.Jugador = adivinar1 + "Es el primer jugador";
+                ViewBag.Jugador1 = adivinar1 + "Es el primer jugador";
                 ViewBag.Resultado1 = true;
             }
             else
             {
-                ViewBag.Jugador = adivinar1 + " No es el primer jugador";
+                ViewBag.Jugador1 = adivinar1 + " No es el primer jugador";
             }
             if (incognita2 == "NAZARIO")
             {
-                ViewBag.Jugador = adivinar2 + "Es el primer jugador";
+                ViewBag.Jugador2 = adivinar2 + "Es el primer jugador";
                 ViewBag.Resultado2 = true;
             }
             else
             {
-                ViewBag.Jugador = adivinar2 + " No es el primer jugador";
+                ViewBag.Jugador2 = adivinar2 + " No es el primer jugador";
             }
             if (incognita3 == "JAMES")
             {
-                ViewBag.Jugador = adivinar3 + "Es el primer jugador";
+                ViewBag.Jugador3 = adivinar3 + "Es el primer jugador";
                 ViewBag.Resultado3 = true;
             }
             else
             {
-                ViewBag.Jugador = adivinar3 + " No es el primer jugador";
+                ViewBag.Jugador3 = adivinar3 + " No es el primer jugador";
             }
             if (ViewBag.Resultado1 & ViewBag.Resultado2 & ViewBag.Resultado3)
             {
@@ -197,28 +197,82 @@ public class HomeController : Controller
             return View("Habitacion2");
     }
 
-     public IActionResult Juego3(string respuesta1, string respuesta2, string respuesta3, string respuesta4, string respuesta5, string respuesta6, string respuesta7)
+     public IActionResult Juego3(string respuesta1, string respuesta2, string respuesta3, string respuesta4, string respuesta5, string respuesta6)
     {
-        string incognita = adivinar.ToUpper();
-        ViewBag.Terminado = false;   
+        string incognita1 = respuesta1.ToUpper();
+        string incognita2 = respuesta2.ToUpper();
+        string incognita3 = respuesta3.ToUpper();
+        string incognita4 = respuesta1.ToUpper();
+        string incognita5 = respuesta2.ToUpper();
+        string incognita6 = respuesta3.ToUpper();
+        ViewBag.Resultado1 = false;   
+        ViewBag.Resultado2 = false;
+        ViewBag.Resultado3 = false;
+        ViewBag.Resultado4 = false;   
+        ViewBag.Resultado5 = false;
+        ViewBag.Resultado6 = false; 
+
+        ViewBag.Terminado3 = false;  
       
-            Console.WriteLine(adivinar);
             
-            if (jugadores.Jugadores.Contains(incognita))
+            if (incognita1 == "SANTIAGO BERNABEU")
             {
-                adivinaJugador.Jugadores.Remove(incognita);
-                ViewBag.Jugador = adivinar + " forma parte";
-                adivinaJugador.aciertos++;
+                ViewBag.correcto1 = "Pregunta 1 correcta";
+                ViewBag.Resultado1 = true;
             }
             else
             {
-                ViewBag.Jugador = adivinar + " no forma parte";
+                ViewBag.correcto1 = "Pregunta 1 incorrecta";
             }
-            ViewBag.aciertos = adivinaJugador.aciertos;
-            Console.WriteLine(adivinaJugador.aciertos);
-            if (adivinaJugador.aciertos == 3)
+            if (incognita2 == "CRISTIANO RONALDO")
             {
-                ViewBag.Terminado2 = true;  
+                ViewBag.correcto2 = "Pregunta 2 correcta";
+                ViewBag.Resultado2 = true;
+            }
+            else
+            {
+                ViewBag.correcto2 = "Pregunta 2 incorrecta";
+            }
+            if (incognita3 == "MADRID")
+            {
+                ViewBag.correcto3 = "Pregunta 3 correcta";
+                ViewBag.Resultado3 = true;
+            }
+            else
+            {
+                ViewBag.correcto3 = "Pregunta 3 incorrecta";
+            }
+            if (incognita4 == "15")
+            {
+                ViewBag.correcto4 = "Pregunta 4 correcta";
+                ViewBag.Resultado4 = true;
+            }
+            else
+            {
+                ViewBag.correcto4 = "Pregunta 4 incorrecta";
+            }
+            if (incognita5 == "RAUL")
+            {
+                ViewBag.correcto5 = "Pregunta 5 correcta";
+                ViewBag.Resultado5 = true;
+            }
+            else
+            {
+                ViewBag.correcto5 = "Pregunta 5 incorrecta";
+            }
+            if (incognita6 == "36")
+            {
+                ViewBag.correcto6 = "Pregunta 6 correcta";
+                ViewBag.Resultado6 = true;
+            }
+            else
+            {
+                ViewBag.correcto6 = "Pregunta 6 incorrecta";
+            }
+    
+            if (ViewBag.Resultado1 & ViewBag.Resultado2 & ViewBag.Resultado3 & ViewBag.Resultado4 & ViewBag.Resultado5 & ViewBag.Resultado6)
+            {
+                ViewBag.Terminado3 = true;  
                 ViewBag.Nombre = "Riveiro Jr";
             }
             return View("Habitacion3");
