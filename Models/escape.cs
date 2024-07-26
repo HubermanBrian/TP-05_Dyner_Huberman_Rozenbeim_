@@ -9,8 +9,8 @@ private static void InicializarJuego()
     incognitasSalas = new string [5];
     incognitasSalas [0] = "RM1524";
     incognitasSalas [1] = "VRR";
-    incognitasSalas [2] = " ";
-    incognitasSalas [3] = " ";
+    incognitasSalas [2] = "KJN";
+    incognitasSalas [3] = "Matheus Da Silva Riveiro Jr";
 }
 
 public static int GetEstadoJuego()

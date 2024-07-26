@@ -1,14 +1,62 @@
 <h1>Titulo 2345</h1>
-<p>Próximo destino Rio de Janeiro, la favela</p>
+<p>Próximo destino Rio de Janeiro, la favela. ¿Cómo se llama nuestra joven estrella?</p>
 @if(ViewBag.Sala != null){
     <p>@ViewBag.Sala</p>
 }
 @if(ViewBag.Clave != null){
     <p>@ViewBag.Clave</p>
 }
-<form action='@Url.Action("Habitacion")'> 
-     <label><input type="hidden" name="sala" value="3" /></label>
-    <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
-    <input type="submit"/>
-</form>
-<button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
+<img src = "~/Img/florentinoFavela.PNG">
+@if(ViewBag.Terminado2 != null)
+{
+    @if(ViewBag.Terminado2)
+    {
+        <p>@ViewBag.ErrorJuego1</p>
+        <form action='@Url.Action("Habitacion")'> 
+        <label><input type="hidden" name="sala" value="3" /></label>
+        <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
+        <input type="submit"/>
+        </form>
+    }else
+    {
+        <button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
+        @if(!ViewBag.Resultado1)
+        {
+            <p>Carrera 1:</p>
+            <img src = "~/Img/Kaka.png">
+        }
+         @if(!ViewBag.Resultado2)
+        {
+            <p>Carrera 2:</p>
+            <img src = "~/Img/nazario.png">
+        }
+        @if(!ViewBag.Resultado3)
+        {
+            <p>Carrera 3:</p>
+            <img src = "~/Img/James.png">
+        }
+        <form action='@Url.Action("Juego2")'> 
+        <label><input type="hidden" name="sala" value="3" /></label>
+        Ingresa el nombre del jugador 1: <label><input type="text" name="adivinar1" required/></label>
+        Ingresa el nombre del jugador 2: <label><input type="text" name="adivinar2" required/></label>
+        Ingresa el nombre del jugador 3: <label><input type="text" name="adivinar3" required/></label>
+        <input type="submit"/>
+        </form>
+    }
+}else
+{
+    <button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
+    <p>Carrera 1:</p>
+    <img src = "~/Img/Kaka.png">
+    <p>Carrera 2:</p>
+    <img src = "~/Img/nazario.png">
+    <p>Carrera 3:</p>
+    <img src = "~/Img/James.png">
+    <form action='@Url.Action("Juego2")'> 
+        Ingresa el nombre del jugador 1: <label><input type="text" name="adivinar1" required/></label>
+        Ingresa el nombre del jugador 2: <label><input type="text" name="adivinar2" required/></label>
+        Ingresa el nombre del jugador 3: <label><input type="text" name="adivinar3" required/></label>
+        <input type="submit"/>
+    </form>
+}
+

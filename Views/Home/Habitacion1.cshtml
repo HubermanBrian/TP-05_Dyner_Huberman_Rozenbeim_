@@ -15,27 +15,29 @@
         }
         <button>Pista 1: En la foto hay tres futbolistas fusionados.</button>
         <button>Pista 2: La clave es las iniciales de los tres futbolistas en un orden en específico.</button>
+        <img src = "~/Img/avion.jpeg">
         <img src = "~/Img/juegoCaras.png">
         @if(ViewBag.Terminado1 != null)
         {
             @if(ViewBag.Terminado1)
             {
-                <p>@ViewBag.ErrorJuego2</p>
+                <p>@ViewBag.ErrorJuego1</p>
                 <form action='@Url.Action("Habitacion")'> 
                 <label><input type="hidden" name="sala" value="2" /></label>
                 <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
                 <input type="submit"/>
+                <p>Dato importante, el nombre de nuestra joven promesa es @ViewBag.Nombre</p>
             </form>
             }else
             {
-                <form action='@Url.Action("Juego2")'> 
+                <form action='@Url.Action("Juego1")'> 
                 <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" required/></label>
                 <input type="submit"/>
                 </form>
             }
         }else
         {
-                <form action='@Url.Action("Juego2")'> 
+                <form action='@Url.Action("Juego1")'> 
                 <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" required/></label>
                 <input type="submit"/>
                 </form>

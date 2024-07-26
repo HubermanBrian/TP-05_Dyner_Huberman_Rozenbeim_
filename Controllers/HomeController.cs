@@ -47,7 +47,7 @@ public class HomeController : Controller
             {
                 ViewBag.Clave = "clave incorrecta";
                 ViewBag.Terminado1 = true;
-                ViewBag.ErrorJuego2 = "Difenente orden de los jugadores";
+                ViewBag.ErrorJuego1 = "Difenente orden de los jugadores";
                 jugadores.aciertos = 0;
                 jugadores.Jugadores = new List<string> {"NAVAS", "CARVAJAL", "RAMOS","VARANE","MARCELO","CASEMIRO","KROOS","MODRIC","ISCO","BENZEMA","RONALDO"};
                 return View("Habitacion" + (escape.GetEstadoJuego() - 1));
@@ -64,7 +64,7 @@ public class HomeController : Controller
         }
     }
 
-    public IActionResult Juego1(string Jugador)
+    public IActionResult Juego0(string Jugador)
     {
         string incognita = Jugador.ToUpper();
         ViewBag.Terminado = false;   
@@ -122,29 +122,105 @@ public class HomeController : Controller
         return View("Habitacion0");
     }
 
-       public IActionResult Juego2(string Jugador)
+       public IActionResult Juego1(string adivinar)
     {
-        string incognita = Jugador.ToUpper();
-        ViewBag.Terminado = false;   
+        string incognita = adivinar.ToUpper();
+        ViewBag.Terminado1 = false;   
       
-            Console.WriteLine(Jugador);
+            Console.WriteLine(adivinar);
             
             if (jugadores.Jugadores.Contains(incognita))
             {
                 adivinaJugador.Jugadores.Remove(incognita);
-                ViewBag.Jugador = Jugador + " forma parte";
+                ViewBag.Jugador = adivinar + " forma parte";
                 adivinaJugador.aciertos++;
             }
             else
             {
-                ViewBag.Jugador = Jugador + " no forma parte";
+                ViewBag.Jugador = adivinar + " no forma parte";
             }
             ViewBag.aciertos = jugadores.aciertos;
             Console.WriteLine(jugadores.aciertos);
             if (jugadores.aciertos == 3)
             {
                 ViewBag.Terminado1 = true;  
+                ViewBag.Nombre = "Matheus";
             }
             return View("Habitacion1");
+    }
+        public IActionResult Juego2(string adivinar1, string adivinar2, string adivinar3)
+    {
+        string incognita1 = adivinar1.ToUpper();
+        string incognita2 = adivinar2.ToUpper();
+        string incognita3 = adivinar3.ToUpper();
+        ViewBag.Resultado1 = false;   
+        ViewBag.Resultado2 = false;
+        ViewBag.Resultado3 = false;
+        ViewBag.Terminado2 = false;  
+      
+            Console.WriteLine(adivinar1);
+            Console.WriteLine(adivinar2);
+            Console.WriteLine(adivinar3);
+            
+            if (incognita1 == "KAKA")
+            {
+                ViewBag.Jugador = adivinar1 + "Es el primer jugador";
+                ViewBag.Resultado1 = true;
+            }
+            else
+            {
+                ViewBag.Jugador = adivinar1 + " No es el primer jugador";
+            }
+            if (incognita2 == "NAZARIO")
+            {
+                ViewBag.Jugador = adivinar2 + "Es el primer jugador";
+                ViewBag.Resultado2 = true;
+            }
+            else
+            {
+                ViewBag.Jugador = adivinar2 + " No es el primer jugador";
+            }
+            if (incognita3 == "JAMES")
+            {
+                ViewBag.Jugador = adivinar3 + "Es el primer jugador";
+                ViewBag.Resultado3 = true;
+            }
+            else
+            {
+                ViewBag.Jugador = adivinar3 + " No es el primer jugador";
+            }
+            if (ViewBag.Resultado1 & ViewBag.Resultado2 & ViewBag.Resultado3)
+            {
+                ViewBag.Terminado2 = true;  
+                ViewBag.Nombre = "Da Silva";
+            }
+            return View("Habitacion2");
+    }
+
+     public IActionResult Juego3(string respuesta1, string respuesta2, string respuesta3, string respuesta4, string respuesta5, string respuesta6, string respuesta7)
+    {
+        string incognita = adivinar.ToUpper();
+        ViewBag.Terminado = false;   
+      
+            Console.WriteLine(adivinar);
+            
+            if (jugadores.Jugadores.Contains(incognita))
+            {
+                adivinaJugador.Jugadores.Remove(incognita);
+                ViewBag.Jugador = adivinar + " forma parte";
+                adivinaJugador.aciertos++;
+            }
+            else
+            {
+                ViewBag.Jugador = adivinar + " no forma parte";
+            }
+            ViewBag.aciertos = adivinaJugador.aciertos;
+            Console.WriteLine(adivinaJugador.aciertos);
+            if (adivinaJugador.aciertos == 3)
+            {
+                ViewBag.Terminado2 = true;  
+                ViewBag.Nombre = "Riveiro Jr";
+            }
+            return View("Habitacion3");
     }
 }
