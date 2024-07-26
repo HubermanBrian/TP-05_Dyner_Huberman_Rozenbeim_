@@ -1,67 +1,91 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\James.png",
+      "PackagePath": "staticwebassets\\Img\\James.png"
+    },
+    {
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Kaka.png",
+      "PackagePath": "staticwebassets\\Img\\Kaka.png"
+    },
+    {
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
       "PackagePath": "staticwebassets\\Img\\carleto_oficina.png"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\css\\site.css",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\estadio.webp",
+      "PackagePath": "staticwebassets\\Img\\estadio.webp"
+    },
+    {
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\final2018.png",
+      "PackagePath": "staticwebassets\\Img\\final2018.png"
+    },
+    {
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\juegoCaras.png",
+      "PackagePath": "staticwebassets\\Img\\juegoCaras.png"
+    },
+    {
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\nazario.png",
+      "PackagePath": "staticwebassets\\Img\\nazario.png"
+    },
+    {
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\favicon.ico",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\js\\site.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Brian\\ORT 2024\\programacion\\escapeeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

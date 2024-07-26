@@ -13,13 +13,14 @@
         @if(ViewBag.Clave != null){
             <p>@ViewBag.Clave</p>
         }
+        <button>Pista 1: botones que dan pistas para adivinar la clave.</button>
+        <button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+        <img src = "~/Img/juegoCaras.png">
         <form action='@Url.Action("Habitacion")'> 
             <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" required/></label>
             <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
             <input type="submit"/>
         </form>
-        <button>Pista 1: botones que dan pistas para adivinar la clave.</button>
-        <button>Pista 2: botones que dan pistas para adivinar la clave.</button>
 
     </main>
     

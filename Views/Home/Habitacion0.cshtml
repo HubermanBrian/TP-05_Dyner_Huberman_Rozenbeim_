@@ -7,16 +7,17 @@
     <p>@ViewBag.Clave</p>
 }
 
-<button>Pista 1: botones que dan pistas para adivinar la clave.</button>
+<button>Pista 1: Tenes sacar tu boleto para subirte al avion </button>
 
-<button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+<button>Pista 2: Adivina la formacion titular del real madrid cunado gano la champions en en 2018</button>
+<img src = "~/Img/final2018.png">
 @if(ViewBag.Terminado!= null)
 {
-     @if(ViewBag.Terminado)
+    @if(ViewBag.Terminado)
     {
         <form action='@Url.Action("Habitacion")'> 
-            <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" /></label>
-            <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" /></label>
+            <label><input type="hidden" name="sala" /></label>
+            <label><input type="text" name="clave" placeholder = "ingresa el codigo del avion"/></label>
             <input type="submit"/>
         </form>
     }
@@ -28,14 +29,19 @@
         </form>
         <h4>@ViewBag.Jugador</h4>
     }
-}else{
+}else
+{
+
     <form action='@Url.Action("Juego1")'> 
-            <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
+            <label><input type="text" name="Jugador" placeholder = "Ingrese el jugadorx" required/></label>
+            <label><input type="hidden" name="aciertos" value = "1"/></label>
             <input type="submit"/>
     
     </form>
         <h4>@ViewBag.Jugador</h4>
 }
+  
+<h4>Su posible codigo de avion es @ViewBag.Respuesta</h4>
 
    
 

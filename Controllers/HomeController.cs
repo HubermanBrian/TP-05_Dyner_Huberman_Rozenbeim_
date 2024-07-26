@@ -28,11 +28,9 @@ public class HomeController : Controller
     }
     public IActionResult Habitacion(int sala, string clave)
     {
-        Console.WriteLine("entra principal");
 
         if (sala == escape.GetEstadoJuego())
         {
-            Console.WriteLine("entra secudaria");
             if (escape.ResolverSala(sala, clave))
             {
                 if (sala == escape.ContarSalas())
@@ -41,7 +39,6 @@ public class HomeController : Controller
                 }
                 else
                 {
-                    Console.WriteLine("entra terciaria");
                     return RedirectToAction("Comenzar");
                 }
             }
@@ -63,41 +60,48 @@ public class HomeController : Controller
         }
     }
 
-    public IActionResult Juego1(string Jugador)
+    public IActionResult Juego1(string Jugador, int aciertos)
     {
-        Console.WriteLine("entra binker1");
-        List<string> Jugadores = new List<string> { "NAVAS", "CARVAJAL", "RAMOS","VARANE","MARCELO","CASEMIRO","KROOS","MODRIC","ISCO","BENZEMA","RONALDO"};
-        string incognita;
-        incognita = Jugador.ToUpper();
-        int i = 0;
-        bool encontrado = false; 
+        List<string> Jugadores = new List<string> {"NAVAS", "CARVAJAL", "RAMOS","VARANE","MARCELO","CASEMIRO","KROOS","MODRIC","ISCO","BENZEMA","RONALDO"};
+        string incognita = Jugador.ToUpper();
         ViewBag.Terminado = false;   
-        int aciertos = 0;
-        while (encontrado != true && Jugadores.Count > i)  
-        {
+      
             Console.WriteLine(Jugador);
             
-            if (Jugadores[i] == incognita)
+            if (Jugadores.Contains(incognita))
             {
-                Jugadores.RemoveAt(i);
                 ViewBag.Jugador = Jugador + " esta en este plantel";
-                encontrado = true;
-                aciertos ++;
+                aciertos++;
             }
             else
             {
-                i++;
-                
+                ViewBag.Jugador = Jugador + " no esta en este plantel";
             }
-            
-        }
-        if(encontrado == false){
-            ViewBag.Jugador = Jugador + " no esta en este plantel";
-        }
-
-        if (aciertos == 11)
+            Console.WriteLine(aciertos);
+        switch (aciertos)
         {
-           ViewBag.Terminado = true;
+            case 2:
+                ViewBag.Respuesta = "R";
+                break;
+            case 4:
+                ViewBag.Respuesta = "RM";
+                break;
+            case 6:
+                ViewBag.Respuesta = "RM1";
+                break;
+            case 8:
+                ViewBag.Respuesta = "RM15";
+                break;
+            case 10:
+                ViewBag.Respuesta = "RM152";
+                break;
+            case 11:
+                ViewBag.Terminado = true;
+                ViewBag.Respuesta = "RM1524";
+                break;
+            default:
+                ViewBag.Respuesta = "";
+                break;
         }
         return View("Habitacion0");
     }
