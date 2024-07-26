@@ -6,22 +6,42 @@
     </header>
     <main>
         <h1>Titulo 2345</h1>
-        <p>Un texto relatando lo que se encuentra en la sala y lo que hay que hacer</p>
+        <p>Una vez en el avión, florentino quiere sabes a que ciudad se dirige</p>
         @if(ViewBag.ErrorSala != null){
             <p>@ViewBag.ErrorSala</p>
         }
         @if(ViewBag.Clave != null){
             <p>@ViewBag.Clave</p>
         }
-        <button>Pista 1: botones que dan pistas para adivinar la clave.</button>
-        <button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+        <button>Pista 1: En la foto hay tres futbolistas fusionados.</button>
+        <button>Pista 2: La clave es las iniciales de los tres futbolistas en un orden en específico.</button>
         <img src = "~/Img/juegoCaras.png">
-        <form action='@Url.Action("Habitacion")'> 
-            <label><input type="number" name="sala" placeholder = "ingresa el numero de la sala en la que estas" required/></label>
-            <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
-            <input type="submit"/>
-        </form>
+        @if(ViewBag.Terminado1 != null)
+        {
+            @if(ViewBag.Terminado1)
+            {
+                <p>@ViewBag.ErrorJuego2</p>
+                <form action='@Url.Action("Habitacion")'> 
+                <label><input type="hidden" name="sala" value="2" /></label>
+                <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
+                <input type="submit"/>
+            </form>
+            }else
+            {
+                <form action='@Url.Action("Juego2")'> 
+                <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" required/></label>
+                <input type="submit"/>
+                </form>
+            }
+        }else
+        {
+                <form action='@Url.Action("Juego2")'> 
+                <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" required/></label>
+                <input type="submit"/>
+                </form>
+        }
 
+       
     </main>
     
 </body>
