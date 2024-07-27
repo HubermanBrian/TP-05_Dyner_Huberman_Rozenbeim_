@@ -28,11 +28,48 @@ footer {
   background-image: url("../Img/carleto_oficina.png");
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
-header{
+.Hinicio{
   text-align: center;
-  color: #ffffff;
+  padding: 20px;
+  background-color: #333;
+}
+.Hinicio img{
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.Hinicio h1 {
+  margin: 10px 0;
+  color: #d3c799;
+}
+.Hinicio p {
+  color: #ccc; 
 }
 div{
   height: 800px;
+}
+.Tuto-Comen{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.Tuto-Comen a {
+  background-color: #e3b505;
+  color: #333;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.Tuto-Comen a:hover {
+  background-color: #d4a304;
 }
