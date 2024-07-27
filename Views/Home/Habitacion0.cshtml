@@ -1,48 +1,49 @@
-<header class="HJuego0">
-    <h1>Titulo</h1>
-    <p>Tenes sacar tu boleto para subirte al avion para ir a brasil en busca de la joven promesa</p>
-</header>
-<div class="Juego0">
-@if(ViewBag.Clave != null){
-    <p>@ViewBag.Clave</p>
-}
+<body>
+    <header class="HJuego0">
+        <h1>PRIMEROS PASOS</h1>
+        <p>Tenes sacar tu boleto para subirte al avion para ir a brasil en busca de la joven promesa</p>
+    </header>
+        <main class="Juego0">
+            @if(ViewBag.Clave != null){
+                <p>@ViewBag.Clave</p>
+            }
 
-<button>Pista 1: La formacion es del real madrid </button>
+            <button>Pista 1: La formacion es del real madrid </button>
 
-<button>Pista 2: Es la formacion titular del Real Madrid cunado gano la champions en en 2018</button>
-<img src = "~/Img/final2018.png">
-@if(ViewBag.Terminado!= null)
-{
-    @if(ViewBag.Terminado)
-    {
-        <form action='@Url.Action("Habitacion")'> 
-            <label><input type="hidden" name="sala" value="1" /></label>
-            <label><input type="text" name="clave" placeholder = "ingresa el codigo del avion"/></label>
-            <input type="submit"/>
-        </form>
-    }
-    else
-    {
-        <form action='@Url.Action("Juego0")'> 
-            <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
-            <input type="submit"/>
-        </form>
-        <h4>@ViewBag.Jugador</h4>
-    }
-}else
-{
-    <form action='@Url.Action("Juego0")'> 
-            <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
-            <label><input type="hidden" name="aciertos" value = "0"/></label>
-            <input type="submit"/>
-    
-    </form>
-        <h4>@ViewBag.Jugador</h4>
-}
-  
-<h4>Su posible codigo de avion es @ViewBag.Respuesta</h4>
-</div>
-
+            <button>Pista 2: Es la formacion titular del Real Madrid cunado gano la champions en en 2018</button>
+            <img src = "~/Img/final2018.png">
+            @if(ViewBag.Terminado!= null)
+            {
+                @if(ViewBag.Terminado)
+                {
+                    <form action='@Url.Action("Habitacion")'> 
+                        <label><input type="hidden" name="sala" value="1" /></label>
+                        <label><input type="text" name="clave" placeholder = "ingresa el codigo del avion"/></label>
+                        <input type="submit"/>
+                    </form>
+                }
+                else
+                {
+                    <form action='@Url.Action("Juego0")'> 
+                        <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
+                        <input type="submit"/>
+                    </form>
+                    <h4>@ViewBag.Jugador</h4>
+                }
+            }else
+            {
+                <form action='@Url.Action("Juego0")'> 
+                    <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
+                    <label><input type="hidden" name="aciertos" value = "0"/></label>
+                    <input type="submit"/>
+                
+                </form>
+                <h4>@ViewBag.Jugador</h4>
+            }
+            
+            <h4>Su posible codigo de avion es @ViewBag.Respuesta</h4>
+        </main>
+</body>
    
 
 

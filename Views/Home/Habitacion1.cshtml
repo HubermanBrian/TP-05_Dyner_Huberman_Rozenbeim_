@@ -1,12 +1,10 @@
-<body>
-     <header>
-        <img src="~/Img//"> logo
-        <h1>Nombre</h1>
-        <p>Slogan</p>
-    </header>
-    <main>
-        <h1>Titulo 2345</h1>
+<body class="H1">
+     <header class="HJuego0">
+        <h1>CONTINUA LA BUSQUEDA</h1>
         <p>Una vez en el avión, florentino quiere sabes a que ciudad se dirige</p>
+    </header>
+    <main class="Juego1">
+        <p>Para poder descubrir el destino necesitamos resolver el siguiente juego</p>
         @if(ViewBag.ErrorSala != null){
             <p>@ViewBag.ErrorSala</p>
         }
@@ -15,7 +13,6 @@
         }
         <button>Pista 1: En la foto hay tres futbolistas fusionados.</button>
         <button>Pista 2: La clave es las iniciales de los tres futbolistas en un orden en específico.</button>
-        <img src = "~/Img/avion.jpeg">
         <img src = "~/Img/juegoCaras.png">
         @if(ViewBag.Terminado1 != null)
         {
