@@ -1,59 +1,65 @@
-<h1>YA CASI...</h1>
-<p>Seguimos en busca del nombre completo de nuestra jovgen promesa. ¿Cómo será su apellido?</p>
-@if(ViewBag.Sala != null){
-    <p>@ViewBag.Sala</p>
-}
-@if(ViewBag.Clave != null){
-    <p>@ViewBag.Clave</p>
-}
-@if(ViewBag.Terminado3!=null){
-    <img src = "~/Img/favela.jfif">
-    @if(ViewBag.Terminado)
-    {
-        <p>Dato importante, el último apellido de nuestra joven promesa es @ViewBag.Nombre</p>
-        <p>Sabiendo el nombre completo, hay que ingresarlo para poder contratar a nuestra joven promesa</p>
-        <form action='@Url.Action("Habitacion")'> 
-            <label><input type="hidden" name="sala" value="4" /></label>
-            <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
-            <input type="submit"/>
-        </form>
-    }
-    else
-    {
-        <button>Pista 1: Para obtrener el nombre hay que responder esta serie de preguntas</button>
-        <button>Pista 2: La clave es el nombre completo de nuestra futura estrella</button>
-        <p>@ViewBag.correcto1</p>
-        <p>@ViewBag.correcto2</p>
-        <p>@ViewBag.correcto3</p>
-        <p>@ViewBag.correcto4</p>
-        <p>@ViewBag.correcto5</p>
-        <p>@ViewBag.correcto6</p>
-        <form action='@Url.Action("Juego2")'> 
-        <label><input type="hidden" name="sala" value="3" /></label>
-        ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
-        ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
-        ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
-        ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" required/></label>
-        ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" required/></label>
-        ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" required/></label>
-        <input type="submit"/>
-        </form>
-    }
-}
-else
-{
-    <button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
-    <form action='@Url.Action("Juego2")'> 
-        <label><input type="hidden" name="sala" value="3" /></label>
-        ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
-        ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
-        ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
-        ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" required/></label>
-        ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" required/></label>
-        ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" required/></label>
-        <input type="submit"/>
-        </form>
-}
+<body class="H3">
+    <header class="HJuego0">
+        <h1>YA CASI...</h1>
+        <p>Seguimos en busca del nombre completo de nuestra jovgen promesa. ¿Cómo será su apellido?</p>
+    </header>
+    <main class="Juego3">
+        @if(ViewBag.Sala != null){
+            <p>@ViewBag.Sala</p>
+        }
+        @if(ViewBag.Clave != null){
+            <p>@ViewBag.Clave</p>
+        }
+        @if(ViewBag.Terminado3!=null){
+            
+            @if(ViewBag.Terminado)
+            {
+                <p>Dato importante, el último apellido de nuestra joven promesa es @ViewBag.Nombre</p>
+                <p>Sabiendo el nombre completo, hay que ingresarlo para poder contratar a nuestra joven promesa</p>
+                <form action='@Url.Action("Habitacion")'> 
+                    <label><input type="hidden" name="sala" value="4" /></label>
+                    <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
+                    <input type="submit"/>
+                </form>
+            }
+            else
+            {
+                <button>Pista 1: Para obtrener el nombre hay que responder esta serie de preguntas</button>
+                <button>Pista 2: La clave es el nombre completo de nuestra futura estrella</button>
+                <p>@ViewBag.correcto1</p>
+                <p>@ViewBag.correcto2</p>
+                <p>@ViewBag.correcto3</p>
+                <p>@ViewBag.correcto4</p>
+                <p>@ViewBag.correcto5</p>
+                <p>@ViewBag.correcto6</p>
+                <form action='@Url.Action("Juego2")'> 
+                <label><input type="hidden" name="sala" value="3" /></label>
+                ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
+                ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
+                ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
+                ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" required/></label>
+                ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" required/></label>
+                ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" required/></label>
+                <input type="submit"/>
+                </form>
+            }
+        }
+        else
+        {
+            <button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
+            <form action='@Url.Action("Juego2")'> 
+                <label><input type="hidden" name="sala" value="3" /></label>
+                ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
+                ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
+                ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
+                ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" required/></label>
+                ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" required/></label>
+                ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" required/></label>
+                <input type="submit"/>
+                </form>
+        }
 
-<button>Pista 1: botones que dan pistas para adivinar la clave.</button>
-<button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+        <button>Pista 1: botones que dan pistas para adivinar la clave.</button>
+        <button>Pista 2: botones que dan pistas para adivinar la clave.</button>
+    </main>
+</body>
