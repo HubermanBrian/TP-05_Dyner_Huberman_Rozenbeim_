@@ -441,9 +441,6 @@ div{
   margin-top: 20px;
   color: #ccc;
 }
-.victoria div{
-  background-image: url("../Img/favela.jfif");
-}
 
 .Victoria h1 {
   font-size: 48px;
@@ -485,8 +482,6 @@ body.Tutorial {
   line-height: 1.6;
   margin: 10px 0;
 }
-
-
 
 
 .Creditos {
