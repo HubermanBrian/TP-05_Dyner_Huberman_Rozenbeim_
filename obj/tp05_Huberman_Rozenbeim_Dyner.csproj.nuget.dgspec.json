@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iachu\\Downloads\\TP sala\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj": {}
+    "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iachu\\Downloads\\TP sala\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj": {
+    "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iachu\\Downloads\\TP sala\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
+        "projectUniqueName": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
         "projectName": "tp05_Huberman_Rozenbeim_Dyner",
-        "projectPath": "C:\\Users\\Iachu\\Downloads\\TP sala\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
-        "packagesPath": "C:\\Users\\Iachu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iachu\\Downloads\\TP sala\\TP-05_Dyner_Huberman_Rozenbeim_\\obj\\",
+        "projectPath": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\tp05_Huberman_Rozenbeim_Dyner.csproj",
+        "packagesPath": "C:\\Users\\HUBERMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iachu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HUBERMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

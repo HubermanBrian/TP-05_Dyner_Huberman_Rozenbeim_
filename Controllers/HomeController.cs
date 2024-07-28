@@ -47,7 +47,7 @@ public class HomeController : Controller
             {
                 ViewBag.Clave = "clave incorrecta";
                 ViewBag.Terminado1 = true;
-                ViewBag.ErrorJuego1 = "Difenente orden de los jugadores";
+                ViewBag.ErrorJuego1 = "Diferente orden de los jugadores";
                 jugadores.aciertos = 0;
                 jugadores.Jugadores = new List<string> {"NAVAS", "CARVAJAL", "RAMOS","VARANE","MARCELO","CASEMIRO","KROOS","MODRIC","ISCO","BENZEMA","RONALDO"};
                 return View("Habitacion" + (escape.GetEstadoJuego() - 1));
@@ -129,7 +129,7 @@ public class HomeController : Controller
       
             Console.WriteLine(adivinar);
             
-            if (jugadores.Jugadores.Contains(incognita))
+            if (adivinaJugador.Jugadores.Contains(incognita))
             {
                 adivinaJugador.Jugadores.Remove(incognita);
                 ViewBag.Jugador = adivinar + " forma parte";
@@ -139,9 +139,9 @@ public class HomeController : Controller
             {
                 ViewBag.Jugador = adivinar + " no forma parte";
             }
-            ViewBag.aciertos = jugadores.aciertos;
-            Console.WriteLine(jugadores.aciertos);
-            if (jugadores.aciertos == 3)
+            ViewBag.aciertos = adivinaJugador.aciertos;
+            Console.WriteLine(adivinaJugador.aciertos);
+            if (adivinaJugador.aciertos == 3)
             {
                 ViewBag.Terminado1 = true;  
                 ViewBag.Nombre = "Matheus";
@@ -202,9 +202,9 @@ public class HomeController : Controller
         string incognita1 = respuesta1.ToUpper();
         string incognita2 = respuesta2.ToUpper();
         string incognita3 = respuesta3.ToUpper();
-        string incognita4 = respuesta1.ToUpper();
-        string incognita5 = respuesta2.ToUpper();
-        string incognita6 = respuesta3.ToUpper();
+        string incognita4 = respuesta4.ToUpper();
+        string incognita5 = respuesta5.ToUpper();
+        string incognita6 = respuesta6.ToUpper();
         ViewBag.Resultado1 = false;   
         ViewBag.Resultado2 = false;
         ViewBag.Resultado3 = false;

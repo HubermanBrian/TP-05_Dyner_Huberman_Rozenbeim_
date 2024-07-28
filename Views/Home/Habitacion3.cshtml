@@ -10,9 +10,11 @@
         @if(ViewBag.Clave != null){
             <p>@ViewBag.Clave</p>
         }
+        <button>Pista 1: Para obtrener el nombre hay que responder esta serie de preguntas</button>
+        <button>Pista 2: La clave es el nombre completo de nuestra futura estrella</button>
         @if(ViewBag.Terminado3!=null){
             
-            @if(ViewBag.Terminado)
+            @if(ViewBag.Terminado3)
             {
                 <p>Dato importante, el último apellido de nuestra joven promesa es @ViewBag.Nombre</p>
                 <p>Sabiendo el nombre completo, hay que ingresarlo para poder contratar a nuestra joven promesa</p>
@@ -24,16 +26,14 @@
             }
             else
             {
-                <button>Pista 1: Para obtrener el nombre hay que responder esta serie de preguntas</button>
-                <button>Pista 2: La clave es el nombre completo de nuestra futura estrella</button>
                 <p>@ViewBag.correcto1</p>
                 <p>@ViewBag.correcto2</p>
                 <p>@ViewBag.correcto3</p>
                 <p>@ViewBag.correcto4</p>
                 <p>@ViewBag.correcto5</p>
                 <p>@ViewBag.correcto6</p>
-                <form action='@Url.Action("Juego2")'> 
-                <label><input type="hidden" name="sala" value="3" /></label>
+                <form action='@Url.Action("Juego3")'> 
+                <label><input type="hidden" name="sala" value="4" /></label>
                 ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
                 ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
                 ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
@@ -46,9 +46,8 @@
         }
         else
         {
-            <button>Pista 1: Adivinar el jugador según su carrera futbolística</button>
-            <form action='@Url.Action("Juego2")'> 
-                <label><input type="hidden" name="sala" value="3" /></label>
+            <form action='@Url.Action("Juego3")'> 
+                <label><input type="hidden" name="sala" value="4" /></label>
                 ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
                 ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
                 ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
@@ -58,8 +57,5 @@
                 <input type="submit"/>
                 </form>
         }
-
-        <button>Pista 1: botones que dan pistas para adivinar la clave.</button>
-        <button>Pista 2: botones que dan pistas para adivinar la clave.</button>
     </main>
 </body>

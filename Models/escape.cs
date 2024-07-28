@@ -6,7 +6,7 @@ private static int estadoJuego = 1;
 
 private static void InicializarJuego()
 {
-    incognitasSalas = new string [5];
+    incognitasSalas = new string [4];
     incognitasSalas [0] = "RM1524";
     incognitasSalas [1] = "VRR";
     incognitasSalas [2] = "KJN";
@@ -29,10 +29,11 @@ public static bool ResolverSala(int Sala, string Incognita)
         {
             return false;
         }
-        }
-        else{
+    }
+    else
+    {
         return false;
-}
+    }
     
 }
 public static int ContarSalas()
