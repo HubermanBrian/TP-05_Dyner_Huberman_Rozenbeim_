@@ -1,7 +1,7 @@
 <body class="H3">
     <header class="Banner">
         <h1>YA CASI...</h1>
-        <p>Seguimos en busca del nombre completo de nuestra jovgen promesa. ¿Cómo será su apellido?</p>
+        <p>Seguimos en busca del nombre completo de nuestra joven promesa. ¿Cómo será su apellido?</p>
     </header>
     <main class="Juego3">
         @if(ViewBag.Sala != null){
@@ -20,7 +20,7 @@
                 <p>Sabiendo el nombre completo, hay que ingresarlo para poder contratar a nuestra joven promesa</p>
                 <form action='@Url.Action("Habitacion")'> 
                     <label><input type="hidden" name="sala" value="4" /></label>
-                    <label><input type="text" name="clave" placeholder = "ingresa la clave de la sala en la que estas" required/></label>
+                    <label><input type="text" name="clave" placeholder = "Ingresá la clave de la sala en la que estás" required/></label>
                     <input type="submit"/>
                 </form>
             }

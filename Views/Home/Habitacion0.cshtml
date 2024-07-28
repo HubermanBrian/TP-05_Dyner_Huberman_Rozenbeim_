@@ -1,16 +1,16 @@
 <body class="H0">
     <header class="Banner">
         <h1>PRIMEROS PASOS</h1>
-        <p>Tenes sacar tu boleto para subirte al avion para ir a brasil en busca de la joven promesa</p>
+        <p>Tenés sacar tu boleto para subirte al avión para ir a Brasil en busca de la jóven promesa</p>
     </header>
         <main class="Juego0">
             @if(ViewBag.Clave != null){
                 <p>@ViewBag.Clave</p>
             }
 
-            <button>Pista 1: La formacion es del real madrid </button>
+            <button>Pista 1: La formación es del Real Madrid </button>
 
-            <button>Pista 2: Es la formacion titular del Real Madrid cunado gano la champions en en 2018</button>
+            <button>Pista 2: Es la formación titular del Real Madrid cunado ganó la Champions en en 2018</button>
             <img src = "~/Img/final2018.png">
             @if(ViewBag.Terminado!= null)
             {
@@ -18,7 +18,7 @@
                 {
                     <form action='@Url.Action("Habitacion")'> 
                         <label><input type="hidden" name="sala" value="1" /></label>
-                        <label><input type="text" name="clave" placeholder = "ingresa el codigo del avion"/></label>
+                        <label><input type="text" name="clave" placeholder = "Ingresá el código del avión"/></label>
                         <input type="submit"/>
                     </form>
                 }

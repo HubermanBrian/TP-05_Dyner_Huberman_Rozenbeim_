@@ -81,12 +81,12 @@ public class HomeController : Controller
             if (jugadores.Jugadores.Contains(incognita))
             {
                 jugadores.Jugadores.Remove(incognita);
-                ViewBag.Jugador = incognita + " esta en este plantel";
+                ViewBag.Jugador = incognita + " está en este plantel";
                 jugadores.aciertos++;
             }
             else
             {
-                ViewBag.Jugador = incognita + " no esta en este plantel";
+                ViewBag.Jugador = incognita + " no está en este plantel";
             }
             Console.WriteLine(jugadores.aciertos);
         switch (jugadores.aciertos)
@@ -139,12 +139,12 @@ public class HomeController : Controller
             if (adivinaJugador.Jugadores.Contains(incognita))
             {
                 adivinaJugador.Jugadores.Remove(incognita);
-                ViewBag.Jugador = adivinar + " forma parte";
+                ViewBag.Jugador = incognita + " forma parte";
                 adivinaJugador.aciertos++;
             }
             else
             {
-                ViewBag.Jugador = adivinar + " no forma parte";
+                ViewBag.Jugador = incognita + " no forma parte";
             }
             ViewBag.aciertos = adivinaJugador.aciertos;
             Console.WriteLine(adivinaJugador.aciertos);
@@ -171,30 +171,30 @@ public class HomeController : Controller
             
             if (incognita1 == "KAKA")
             {
-                ViewBag.Jugador1 = adivinar1 + "Es el primer jugador";
+                ViewBag.Jugador1 = adivinar1 + " es el primer jugador";
                 ViewBag.Resultado1 = true;
             }
             else
             {
-                ViewBag.Jugador1 = adivinar1 + " No es el primer jugador";
+                ViewBag.Jugador1 = adivinar1 + " no es el primer jugador";
             }
             if (incognita2 == "NAZARIO")
             {
-                ViewBag.Jugador2 = adivinar2 + "Es el primer jugador";
+                ViewBag.Jugador2 = adivinar2 + " es el segundo jugador";
                 ViewBag.Resultado2 = true;
             }
             else
             {
-                ViewBag.Jugador2 = adivinar2 + " No es el primer jugador";
+                ViewBag.Jugador2 = adivinar2 + " no es el segundo jugador";
             }
             if (incognita3 == "JAMES")
             {
-                ViewBag.Jugador3 = adivinar3 + "Es el primer jugador";
+                ViewBag.Jugador3 = adivinar3 + " es el tercer jugador";
                 ViewBag.Resultado3 = true;
             }
             else
             {
-                ViewBag.Jugador3 = adivinar3 + " No es el primer jugador";
+                ViewBag.Jugador3 = adivinar3 + " no es el tercer jugador";
             }
             if (ViewBag.Resultado1 & ViewBag.Resultado2 & ViewBag.Resultado3)
             {
