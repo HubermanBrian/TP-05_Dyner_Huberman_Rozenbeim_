@@ -290,7 +290,9 @@ form {
   line-height: 1.6;
   margin: 10px 0;
 }
-
+.TextoImportante{
+  font-weight: bold;
+}
 
 .Creditos {
   background-color: #f4f4f4;
