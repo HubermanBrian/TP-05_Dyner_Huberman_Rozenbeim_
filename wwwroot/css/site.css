@@ -485,3 +485,44 @@ body.Tutorial {
   line-height: 1.6;
   margin: 10px 0;
 }
+
+
+
+
+.Creditos {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.Creditos-usuario{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Creditos main section {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.Creditos main section img {
+  max-width: 80%;
+  height: 60%;
+  border-radius: 50%;
+}
+
+.Creditos main section h2 {
+  font-size: 24px;
+  color: #1e1e1e;
+  margin: 15px 0 10px 0;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F4PnJh42EJab1fsd9LSylLQC7ky1JE6aa0eOkH1y8RE=",
+  "Hash": "h1Wq06no40zkQCgblSZM3sBZJq9lsGPDDZPq5LlpU/M=",
   "Source": "tp05_Huberman_Rozenbeim_Dyner",
   "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\avion.jpeg"
+    },
+    {
+      "Identity": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Brian.jpg",
+      "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
+      "RelativePath": "Img/Brian.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Brian.jpg"
     },
     {
       "Identity": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
@@ -169,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\Img\\florentinoFavela.png"
     },
     {
+      "Identity": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Iachu.jpg",
+      "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
+      "RelativePath": "Img/Iachu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Iachu.jpg"
+    },
+    {
       "Identity": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\James.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
@@ -186,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\James.png"
+    },
+    {
+      "Identity": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Juancho.jpg",
+      "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
+      "RelativePath": "Img/Juancho.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Juancho.jpg"
     },
     {
       "Identity": "C:\\Brian\\ORT 2024\\programacion\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\juegoCaras.png",
