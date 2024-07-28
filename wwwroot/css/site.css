@@ -82,7 +82,7 @@ div{
 }
 .H0{
   font-family: 'Arial', sans-serif;
-  background: url('~/Img/estadio.png') no-repeat center center fixed;
+  background-image: url("../Img/estadio.webp");
   background-size: cover;
   color: #f5f5f5;
   margin: 0;
@@ -174,12 +174,14 @@ div{
 }
 .H1{
   font-family: 'Arial', sans-serif;
-  background: url('~/Img/avion.jpeg') no-repeat center center fixed;
+  background-image: url("../Img/avion.jpeg");
   background-size: cover;
   color: #f5f5f5;
 }
 
 .Juego1 {
+  margin-left: 500px;
+  margin-right: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,17 +260,21 @@ div{
 }
 .H2{
   font-family: 'Arial', sans-serif;
-  background: url('~/Img/florentinoFavela.PNG') no-repeat center center fixed;
-  background-size: cover;
+  background-image: url("../Img/florentinoFavela.png");
+  background-size: 100%;
   color: #f5f5f5;
   margin: 0;
   padding: 0;
+}
+.H2 p{
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  padding: 10px;
 }
 .Juego2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #333;
   padding: 20px;
   border-radius: 10px;
   max-width: 800px;
@@ -308,6 +314,9 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  padding: 30px;
 }
 
 .Juego2 form label {
@@ -345,8 +354,9 @@ div{
 }
 .H3{
   font-family: 'Arial', sans-serif;
-  background: url('~/Img/favela.jfif') no-repeat center center fixed;
-  background-size: cover;
+  background-image: url("../Img/favela.jfif");
+  background-size: 60% no-repeat;
+  background-color: #333;
   color: #f5f5f5;
   margin: 0;
   padding: 0;
@@ -356,7 +366,6 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1e1e1e; 
   padding: 20px;
   border-radius: 10px;
 }
@@ -365,6 +374,9 @@ div{
   font-size: 19px;
   color: #e3b505;
   margin-bottom: 20px;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .Juego3 button {
@@ -428,4 +440,48 @@ div{
 .Juego3 h4 {
   margin-top: 20px;
   color: #ccc;
+}
+.victoria div{
+  background-image: url("../Img/favela.jfif");
+}
+
+.Victoria h1 {
+  font-size: 48px;
+  margin: 20px 0;
+  color: #e3b505;
+}
+
+.Victoria p {
+  font-size: 24px; 
+  margin: 10px 20px;
+  color: #ccc;
+}
+body.Tutorial {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tutorial-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.tutorial-content h1 {
+  font-size: 32px;
+  color: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+.tutorial-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
 }

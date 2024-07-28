@@ -45,6 +45,9 @@ public class HomeController : Controller
             }
             else
             {
+                if(sala == escape.ContarSalas()){
+                    return View("Index");
+                }
                 ViewBag.Clave = "clave incorrecta";
                 ViewBag.Terminado1 = true;
                 ViewBag.ErrorJuego1 = "Diferente orden de los jugadores";
