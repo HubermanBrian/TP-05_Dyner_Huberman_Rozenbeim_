@@ -81,12 +81,12 @@ public class HomeController : Controller
             if (jugadores.Jugadores.Contains(incognita))
             {
                 jugadores.Jugadores.Remove(incognita);
-                ViewBag.Jugador = Jugador + " esta en este plantel";
+                ViewBag.Jugador = incognita + " esta en este plantel";
                 jugadores.aciertos++;
             }
             else
             {
-                ViewBag.Jugador = Jugador + " no esta en este plantel";
+                ViewBag.Jugador = incognita + " no esta en este plantel";
             }
             Console.WriteLine(jugadores.aciertos);
         switch (jugadores.aciertos)
