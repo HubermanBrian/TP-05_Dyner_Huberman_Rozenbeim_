@@ -16,6 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewBag.intento = escape.intentos;
         return View();
     }
     public IActionResult Comenzar()
@@ -50,7 +51,19 @@ public class HomeController : Controller
             else
             {
                 if(sala == escape.ContarSalas()){
-                    return View("Index");
+                    escape.ReiniciarEstadoJuego();
+                    jugadores.Jugadores = new List<string> {"NAVAS", "CARVAJAL", "RAMOS","VARANE","MARCELO","CASEMIRO","KROOS","MODRIC","ISCO","BENZEMA","RONALDO"};
+                    jugadores.aciertos = 0;
+                    adivinaJugador.Jugadores = new List<string> {"RUDIGER", "VINICIUS", "RODRYGO"};
+                    adivinaJugador.aciertos = 0;
+                    escape.intentos++;
+                    if(escape.intentos > 3){
+                        return View("Derrota");
+                    }else
+                    {
+                        return View("Index");
+                    }
+                    
                 }
                 ViewBag.Clave = "clave incorrecta";
                 ViewBag.Terminado1 = true;
@@ -187,7 +200,7 @@ public class HomeController : Controller
             {
                 ViewBag.Jugador2 = adivinar2 + " no es el segundo jugador";
             }
-            if (incognita3 == "JAMES")
+            if (incognita3 == "RODRIGUEZ")
             {
                 ViewBag.Jugador3 = adivinar3 + " es el tercer jugador";
                 ViewBag.Resultado3 = true;
@@ -258,7 +271,7 @@ public class HomeController : Controller
             {
                 ViewBag.correcto4 = "Pregunta 4 incorrecta";
             }
-            if (incognita5 == "RAUL")
+            if (incognita5 == "RAUL GONZALEZ")
             {
                 ViewBag.correcto5 = "Pregunta 5 correcta";
                 ViewBag.Resultado5 = true;

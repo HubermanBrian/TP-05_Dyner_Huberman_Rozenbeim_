@@ -5,14 +5,13 @@
 <header class = "Banner">
     <h1>La busqueda de Florentino</h1>
     <p>Nuestra joven promesa</p>
-</header>
-<div>
     <a href = '@Url.Action("Tutorial")'>Tutorial</a>
     <a href = '@Url.Action("Index")'>Inicio</a>
     <a href = '@Url.Action("Comenzar")'>Jugar</a>
     <a href = '@Url.Action("Creditos")'>Créditos</a>
+</header>
     <script> localStorage.removeItem('tiempo'); </script>
-</div>
+    <p class = "intento">Intento @ViewBag.intento/3</p>
 </body>
 
 

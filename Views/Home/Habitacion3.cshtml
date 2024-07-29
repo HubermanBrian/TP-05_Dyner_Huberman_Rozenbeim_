@@ -8,7 +8,7 @@
     <a href = '@Url.Action("Creditos")'>Créditos</a>
     </header>
     <main class="Juego3">
-    <h3>Temportizador: <span id="tiempo"></span></h3>
+    <h2>Temporizador: <span id="tiempo"></span></h2>
             
         <script>
             let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
@@ -30,9 +30,6 @@
                 tiempo--;
             }, 1000); // Changed interval to 1000ms (1 second) for accuracy
         </script>
-        @if(ViewBag.Sala != null){
-            <p>@ViewBag.Sala</p>
-        }
         @if(ViewBag.Clave != null){
             <p>@ViewBag.Clave</p>
         }
@@ -59,29 +56,105 @@
                 <p>@ViewBag.correcto5</p>
                 <p>@ViewBag.correcto6</p>
                 <form action='@Url.Action("Juego3")'> 
-                <label><input type="hidden" name="sala" value="4" /></label>
-                ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" autocomplete = "off" required/></label>
-                ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" autocomplete = "off" required/></label>
-                ¿De que ciudad es el club? <label><input type="text" name="respuesta3" autocomplete = "off" required/></label>
-                ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" autocomplete = "off" required/></label>
-                ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" autocomplete = "off" required/></label>
-                ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" autocomplete = "off" required/></label>
-                <input type="submit"/>
+                    @if(!ViewBag.Resultado1)
+                    {
+                        <p>
+                            ¿Cómo se llama el actual estadio del Real Madrid? 
+                            <label><input type="text" name="respuesta1" autocomplete = "off" required/></label>
+                        </p>
+                    }else
+                    {
+                        <label><input type="hidden" name="respuesta1" value = "SANTIAGO BERNABEU"/></label>
+                    }
+                    
+                    @if(!ViewBag.Resultado2)
+                    {
+                        <p>
+                            ¿Quién es el máximo goleador del Real Madrid? (nombre y apellido)
+                            <label><input type="text" name="respuesta2" autocomplete="off" required/></label>
+                        </p>
+                    }else
+                    {
+                        <label><input type="hidden" name="respuesta2" value = "CRISTIANO RONALDO"/></label>
+                    }
+                    
+                    @if(!ViewBag.Resultado3)
+                    {
+                        <p>
+                            ¿De qué ciudad es el club?
+                            <label><input type="text" name="respuesta3" autocomplete="off" required/></label>
+                        </p>
+                    }else
+                    {
+                        <label><input type="hidden" name="respuesta3" value = "MADRID"/></label>
+                    }
+
+                    @if(!ViewBag.Resultado4)
+                    {
+                        <p>
+                            ¿Cuántas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad)
+                            <label><input type="text" name="respuesta4" autocomplete="off" required/></label>
+                        </p>
+                    }else
+                    {
+                        <label><input type="hidden" name="respuesta4" value = "15"/></label>
+                    }
+                    
+                    @if(!ViewBag.Resultado5)
+                    {
+                        <p>
+                            ¿Quién es el jugador con más partidos jugados en la historia del Real Madrid? (nombre y apellido)
+                            <label><input type="text" name="respuesta5" autocomplete="off" required/></label>
+                        </p>
+                    }else
+                    {
+                        <label><input type="hidden" name="respuesta5" value = "RAUL GONZALEZ"/></label>
+                    }
+                    
+                    @if(!ViewBag.Resultado6)
+                    {
+                        <p>
+                            ¿Cuántas veces el Real Madrid ganó "La liga"? (ingrese solo la cantidad)
+                            <label><input type="text" name="respuesta6" autocomplete="off" required/></label>
+                        </p>
+                    }else
+                    {
+                        <label><input type="hidden" name="respuesta6" value = "36"/></label>
+                    }
+                    <input type="submit"/>
                 </form>
             }
         }
         else
         {
             <form action='@Url.Action("Juego3")'> 
-                <label><input type="hidden" name="sala" value="4" /></label>
-                ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
-                ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
-                ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
-                ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" required/></label>
-                ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" required/></label>
-                ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" required/></label>
+                 <p>
+                    ¿Cómo se llama el actual estadio del Real Madrid? 
+                    <label><input type="text" name="respuesta1" autocomplete = "off" required/></label>
+                </p>
+                <p>
+                    ¿Quién es el máximo goleador del Real Madrid? (nombre y apellido)
+                    <label><input type="text" name="respuesta2" autocomplete="off" required/></label>
+                </p>
+                <p>
+                    ¿De qué ciudad es el club?
+                    <label><input type="text" name="respuesta3" autocomplete="off" required/></label>
+                </p>
+                <p>
+                    ¿Cuántas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad)
+                    <label><input type="text" name="respuesta4" autocomplete="off" required/></label>
+                </p>
+                <p>
+                    ¿Quién es el jugador con más partidos jugados en la historia del Real Madrid? (nombre y apellido)
+                    <label><input type="text" name="respuesta5" autocomplete="off" required/></label>
+                </p>
+                <p>
+                    ¿Cuántas veces el Real Madrid ganó "La liga"? (ingrese solo la cantidad)
+                    <label><input type="text" name="respuesta6" autocomplete="off" required/></label>
+                </p>
+
                 <input type="submit"/>
-                </form>
+            </form>
         }
     </main>
 </body>

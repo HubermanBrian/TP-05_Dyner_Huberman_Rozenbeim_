@@ -36,25 +36,7 @@ footer {
 div{
   height: 800px;
 }
-.inicio div{
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-.inicio div a {
-  background-color: #e3b505;
-  color: #333;
-  text-decoration: none;
-  padding: 15px 30px;
-  margin: 0 10px;
-  border-radius: 5px;
-  font-size: 1.2em;
-  height: 40px;
-}
 
-.inicio div a:hover {
-  background-color: #d4a304;
-}
 .Banner {
   text-align: center;
   padding: 20px;
@@ -81,6 +63,9 @@ div{
   border-radius: 5px;
   font-size: 1.2em;
   height: 40px;
+}
+.Banner a:hover {
+  background-color: #d4a304;
 }
 
 button{
@@ -132,8 +117,6 @@ h4 {
 }
 
 h2{
-  display: flex;
-  justify-content: flex-start;
   font-family: 'Arial', sans-serif;
   font-size: 19px; 
   color: #ffffff;
@@ -153,6 +136,13 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.intento{
+  text-align: center;
+  font-size: 19px; 
+  color: #e3b505;
+  margin-bottom: 20px;
 }
 
 .H0{
@@ -262,21 +252,22 @@ form {
   color: #e3b505;
   margin-bottom: 20px;
   background-color: #333;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 10px;
+  text-align: center;
+  width: 70%;
 }
 
-.Victoria h1 {
-  font-size: 48px;
-  margin: 20px 0;
-  color: #e3b505;
+.Juego3 p label {
+  display: block;
+  margin-top: 10px;
 }
 
-.Victoria p {
-  font-size: 24px; 
-  margin: 10px 20px;
-  color: #ccc;
+.Juego3 p label input {
+  margin: 0 auto;
+  display: block;
 }
+
 .Victoria div{
   max-width: 800px;
   margin: 20px auto;

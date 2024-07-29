@@ -2,40 +2,40 @@
     <header class="Banner">
         <h1>PRIMEROS PASOS</h1>
         <p>Tenés sacar tu boleto para subirte al avión para ir a Brasil en busca de la jóven promesa</p>
-       <a href = '@Url.Action("Tutorial")'>Tutorial</a>
+        <a href = '@Url.Action("Tutorial")'>Tutorial</a>
         <a href = '@Url.Action("Index")'>Inicio</a>
         <a href = '@Url.Action("Comenzar")'>Jugar</a>
         <a href = '@Url.Action("Creditos")'>Créditos</a>
     </header>
         <main class="Juego0">
 
-        <h3>Temportizador: <span id="tiempo"></span></h3>
+            <h2>Temporizador: <span id="tiempo"></span></h2>
             
-        <script>
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 10;
-                    
-            let timer = setInterval(function() {
-                let minutes = Math.floor(tiempo / 60);
-                let seconds = tiempo % 60;
-                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-            
-                // Save the current timer state to localStorage
-                localStorage.setItem('tiempo', tiempo);
-            
-                if (tiempo <= 0) {
-                    clearInterval(timer);
-                    alert("¡Se acabó el tiempo!");
-                    location.href = "TP-05_Dyner_Huberman_Rozenbeim_\Views\Home\Derrota.cshtml"
-                    // Reset timer in localStorage when the game is lost
-                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-                }
-                tiempo--;
-            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
-        </script>
+            <script>
+                let tiempo = parseInt(localStorage.getItem('tiempo')) || 1200000000;
 
-        @if(ViewBag.Clave != null){
-            <p>@ViewBag.Clave</p>
-        }
+                let timer = setInterval(function() {
+                    let minutes = Math.floor(tiempo / 60);
+                    let seconds = tiempo % 60;
+                    document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+
+                    localStorage.setItem('tiempo', tiempo);
+
+                    if (tiempo <= 0) {
+                        clearInterval(timer);
+                        alert("¡Se acabó el tiempo!");
+                        setTimeout(function() {
+                            location.href = "Derrota.cshtml";
+                            localStorage.removeItem('tiempo');
+                        }, 100);
+                    }
+                    tiempo--;
+                }, 1000);
+            </script>
+            @if(ViewBag.Clave != null)
+            {
+                <p>@ViewBag.Clave</p>
+            }
 
             <button>Pista 1: La formación es del Real Madrid </button>
 

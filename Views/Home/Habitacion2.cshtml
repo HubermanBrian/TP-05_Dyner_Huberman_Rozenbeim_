@@ -8,7 +8,7 @@
     <a href = '@Url.Action("Creditos")'>Créditos</a>
 </header>
 <main class="Juego2">
-<h3>Temportizador: <span id="tiempo"></span></h3>
+<h2>Temporizador: <span id="tiempo"></span></h2>
             
         <script>
             let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
@@ -30,9 +30,6 @@
                 tiempo--;
             }, 1000); // Changed interval to 1000ms (1 second) for accuracy
         </script>
-    @if(ViewBag.Sala != null){
-        <p>@ViewBag.Sala</p>
-    }
     @if(ViewBag.Clave != null){
         <p>@ViewBag.Clave</p>
     }
@@ -60,20 +57,33 @@
             {
                 <p>Carrera 1:</p>
                 <img src = "~/Img/Kaka.png">
+                <p>Ingresá el nombre del jugador 1:<label><input type="text" name="adivinar1" autocomplete = "off" required/></label></p> 
+            }else
+            {
+                <label><input type="hidden" name="adivinar1" value = "KAKA"/></label>
             }
-            Ingresá el nombre del jugador 1: <label><input type="text" name="adivinar1" autocomplete = "off" required/></label>
+            
             @if(!ViewBag.Resultado2)
             {
                 <p>Carrera 2:</p>
                 <img src = "~/Img/nazario.png">
+                <p>Ingresá el nombre del jugador 2: <label><input type="text" name="adivinar2" autocomplete = "off" required/></label></p>
             }
-            Ingresá el nombre del jugador 2: <label><input type="text" name="adivinar2" autocomplete = "off" required/></label>
+            else
+            {
+                <label><input type="hidden" name="adivinar2" value = "NAZARIO"/></label>
+            }
+            
             @if(!ViewBag.Resultado3)
             {
                 <p>Carrera 3:</p>
                 <img src = "~/Img/James.png">
+                <p>Ingresá el nombre del jugador 3: <label><input type="text" name="adivinar3" autocomplete = "off" required/></label></p>
+            }else
+            {
+                <label><input type="hidden" name="adivinar3" value = "RODRIGUEZ" /></label>
             }
-            Ingresá el nombre del jugador 3: <label><input type="text" name="adivinar3" autocomplete = "off" required/></label>
+            
             <input type="submit"/>
             </form>
         }
