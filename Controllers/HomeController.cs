@@ -89,6 +89,7 @@ public class HomeController : Controller
                 ViewBag.Jugador = incognita + " no está en este plantel";
             }
             Console.WriteLine(jugadores.aciertos);
+            ViewBag.aciertos = jugadores.aciertos;
         switch (jugadores.aciertos)
         {
             case 2:

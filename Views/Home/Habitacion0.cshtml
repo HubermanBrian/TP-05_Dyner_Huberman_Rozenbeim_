@@ -18,14 +18,15 @@
                 {
                     <form action='@Url.Action("Habitacion")'> 
                         <label><input type="hidden" name="sala" value="1" /></label>
-                        <label><input type="text" name="clave" placeholder = "Ingresá el código del avión"/></label>
+                        <label><input type="text" name="clave" placeholder = "Ingresá el código del avión" autocomplete = "off" required/></label>
                         <input type="submit"/>
                     </form>
                 }
                 else
                 {
                     <form action='@Url.Action("Juego0")'> 
-                        <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
+                        <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" autocomplete = "off" required/></label>
+                        <p>@ViewBag.aciertos/11<p>
                         <input type="submit"/>
                     </form>
                     <h4>@ViewBag.Jugador</h4>
@@ -33,8 +34,8 @@
             }else
             {
                 <form action='@Url.Action("Juego0")'> 
-                    <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" required/></label>
-                    <label><input type="hidden" name="aciertos" value = "0"/></label>
+                    <label><input type="text" name="Jugador" placeholder = "Ingrese el jugador" autocomplete = "off" required /></label>
+                    <label><input type="hidden" name="aciertos" value = "0" /></label>
                     <input type="submit"/>
                 
                 </form>

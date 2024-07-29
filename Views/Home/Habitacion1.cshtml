@@ -21,14 +21,14 @@
                 <p>@ViewBag.ErrorJuego1</p>
                 <form action='@Url.Action("Habitacion")'> 
                 <label><input type="hidden" name="sala" value="2" /></label>
-                <label><input type="text" name="clave" placeholder = "Ingresa la clave de la sala en la que estás" required/></label>
+                <label><input type="text" name="clave" placeholder = "Ingresa la clave de la sala en la que estás" autocomplete = "off" required/></label>
                 <input type="submit"/>
                 <p>Dato importante, el nombre de nuestra joven promesa es @ViewBag.Nombre</p>
             </form>
             }else
             {
                 <form action='@Url.Action("Juego1")'> 
-                <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" required/></label>
+                <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" autocomplete = "off" required/></label>
                 <input type="submit"/>
                 </form>
                 <p>@ViewBag.Jugador</p>
@@ -36,7 +36,7 @@
         }else
         {
                 <form action='@Url.Action("Juego1")'> 
-                <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" required/></label>
+                <label><input type="text" name="Adivinar" placeholder = "Ingrese el jugador" autocomplete = "off" required/></label>
                 <input type="submit"/>
                 </form>
                 <p>@ViewBag.Jugador</p>

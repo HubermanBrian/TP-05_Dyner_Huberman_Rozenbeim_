@@ -20,7 +20,7 @@
                 <p>Sabiendo el nombre completo, hay que ingresarlo para poder contratar a nuestra joven promesa</p>
                 <form action='@Url.Action("Habitacion")'> 
                     <label><input type="hidden" name="sala" value="4" /></label>
-                    <label><input type="text" name="clave" placeholder = "Ingresá la clave de la sala en la que estás" required/></label>
+                    <label><input type="text" name="clave" placeholder = "Ingresá la clave de la sala en la que estás" autocomplete = "off" required/></label>
                     <input type="submit"/>
                 </form>
             }
@@ -34,12 +34,12 @@
                 <p>@ViewBag.correcto6</p>
                 <form action='@Url.Action("Juego3")'> 
                 <label><input type="hidden" name="sala" value="4" /></label>
-                ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" required/></label>
-                ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" required/></label>
-                ¿De que ciudad es el club? <label><input type="text" name="respuesta3" required/></label>
-                ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" required/></label>
-                ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" required/></label>
-                ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" required/></label>
+                ¿Cómo se llama el actual estadio del Real Madrid? <label><input type="text" name="respuesta1" autocomplete = "off" required/></label>
+                ¿Quién es el máximo goleador del Real Madrid? <label><input type="text" name="respuesta2" autocomplete = "off" required/></label>
+                ¿De que ciudad es el club? <label><input type="text" name="respuesta3" autocomplete = "off" required/></label>
+                ¿Cuantas Champions League tiene actualmente el Real Madrid? (ingrese solo la cantidad) <label><input type="text" name="respuesta4" autocomplete = "off" required/></label>
+                ¿Quiénes el jugador con mas partidos jugados en la historia del Real Madrid? <label><input type="text" name="respuesta5" autocomplete = "off" required/></label>
+                ¿Cuantas veces el Real Madrid ganó "La liga" (ingrese solo la cantidad) <label><input type="text" name="respuesta6" autocomplete = "off" required/></label>
                 <input type="submit"/>
                 </form>
             }
