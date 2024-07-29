@@ -9,8 +9,7 @@ html {
   }
 }
 *{
-  margin: 0%;
-  padding: 0%
+  padding: 0px  
   border solid white 1px;
 }
 body {
@@ -73,6 +72,17 @@ div{
   color: #ccc;
 }
 
+.Banner a{
+  background-color: #e3b505;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  height: 40px;
+}
+
 button{
   background-color: #e3b505;
   color: #333;
@@ -119,6 +129,18 @@ input[type="submit"]:hover {
 h4 {
   margin-top: 20px;
   color: #ccc;
+}
+
+h2{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Arial', sans-serif;
+  font-size: 19px; 
+  color: #ffffff;
+  margin-bottom: 20px;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 img {
@@ -255,10 +277,21 @@ form {
   margin: 10px 20px;
   color: #ccc;
 }
-
 .Victoria div{
-  background-image: url("../Img/victoria.jfif");
-  background-size: 50%
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.Derrota div{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .Tutorial {

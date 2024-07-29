@@ -77,7 +77,6 @@ public class HomeController : Controller
         ViewBag.Terminado = false;   
       
             Console.WriteLine(Jugador);
-            
             if (jugadores.Jugadores.Contains(incognita))
             {
                 jugadores.Jugadores.Remove(incognita);

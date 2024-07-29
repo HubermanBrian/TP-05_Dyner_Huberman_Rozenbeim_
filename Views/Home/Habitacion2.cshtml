@@ -2,8 +2,34 @@
 <header class="Banner">
     <h1>DESPEGUEMOS A NUEVOS TERRITORIOS</h1>
     <p>Próximo destino Rio de Janeiro, la favela. ¿Cómo se llama nuestra joven estrella?</p>
+    <a href = '@Url.Action("Tutorial")'>Tutorial</a>
+    <a href = '@Url.Action("Index")'>Inicio</a>
+    <a href = '@Url.Action("Comenzar")'>Jugar</a>
+    <a href = '@Url.Action("Creditos")'>Créditos</a>
 </header>
 <main class="Juego2">
+<h3>Temportizador: <span id="tiempo"></span></h3>
+            
+        <script>
+            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+                    
+            let timer = setInterval(function() {
+                let minutes = Math.floor(tiempo / 60);
+                let seconds = tiempo % 60;
+                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            
+                // Save the current timer state to localStorage
+                localStorage.setItem('tiempo', tiempo);
+            
+                if (tiempo <= 0) {
+                    clearInterval(timer);
+                    alert("¡Se acabó el tiempo!");
+                    location.href = "TP-05_Dyner_Huberman_Rozenbeim_\Views\Home\Derrota.cshtml"
+                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
+                }
+                tiempo--;
+            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
+        </script>
     @if(ViewBag.Sala != null){
         <p>@ViewBag.Sala</p>
     }

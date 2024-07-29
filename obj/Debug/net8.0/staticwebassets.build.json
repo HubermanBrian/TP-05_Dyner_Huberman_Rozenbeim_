@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cczxCi9k6SROUNwTrVF50jZaKhN0bWce/tPtnvvK1ro=",
+  "Hash": "PaO1W7bGIIdea3GClRBfYGq1bVvH4R30x7bXmAMaNiM=",
   "Source": "tp05_Huberman_Rozenbeim_Dyner",
   "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\carleto_oficina.png"
+    },
+    {
+      "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\derrota.jpg",
+      "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
+      "RelativePath": "Img/derrota.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\derrota.jpg"
     },
     {
       "Identity": "C:\\Users\\48179712\\Desktop\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\estadio.webp",
