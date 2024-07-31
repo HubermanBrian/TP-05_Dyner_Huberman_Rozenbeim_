@@ -10,26 +10,25 @@
     <main class="Juego1">
         <h2>Temporizador: <span id="tiempo"></span></h2>
             
-        <script>
-            let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
-                    
-            let timer = setInterval(function() {
-                let minutes = Math.floor(tiempo / 60);
-                let seconds = tiempo % 60;
-                document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-            
-                // Save the current timer state to localStorage
-                localStorage.setItem('tiempo', tiempo);
-            
-                if (tiempo <= 0) {
-                    clearInterval(timer);
-                    alert("¡Se acabó el tiempo!");
-                    location.href = "TP-05_Dyner_Huberman_Rozenbeim_\Views\Home\Derrota.cshtml"
-                    localStorage.removeItem('tiempo'); // This effectively resets the timer for a new game
-                }
-                tiempo--;
-            }, 1000); // Changed interval to 1000ms (1 second) for accuracy
-        </script>
+            <script>
+                let tiempo = parseInt(localStorage.getItem('tiempo')) || 900;
+
+                let timer = setInterval(function() {
+                    let minutes = Math.floor(tiempo / 60);
+                    let seconds = tiempo % 60;
+                    document.getElementById('tiempo').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+
+                    localStorage.setItem('tiempo', tiempo);
+
+                    if (tiempo <= 0) {
+                        clearInterval(timer);
+                        alert("¡Se acabó el tiempo!"); 
+                        window.location.href = '@Url.Action("Derrota")';
+                        localStorage.removeItem('tiempo');
+                    }
+                    tiempo--;
+                }, 1000);
+            </script>
         @if(ViewBag.Clave != null){
             <p>@ViewBag.Clave</p>
         }
