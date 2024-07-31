@@ -12,7 +12,7 @@
             <h2>Temporizador: <span id="tiempo"></span></h2>
             
             <script>
-                let tiempo = parseInt(localStorage.getItem('tiempo')) || 1200000000;
+                let tiempo = parseInt(localStorage.getItem('tiempo')) || 600;
 
                 let timer = setInterval(function() {
                     let minutes = Math.floor(tiempo / 60);
@@ -25,7 +25,7 @@
                         clearInterval(timer);
                         alert("¡Se acabó el tiempo!");
                         setTimeout(function() {
-                            location.href = "Derrota.cshtml";
+                            location.href = "/Home/Derrota";
                             localStorage.removeItem('tiempo');
                         }, 100);
                     }

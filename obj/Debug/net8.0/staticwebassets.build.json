@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PVhCSx2aBDdXkaDGSZALuvn4u5trJTTC3GsJoJxQwoo=",
+  "Hash": "lDlLHvQWwrCo2sSykF8z1yiPbwXbYTCGBFWlvVd/F/Q=",
   "Source": "tp05_Huberman_Rozenbeim_Dyner",
   "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "tp05_Huberman_Rozenbeim_Dyner\\wwwroot",
       "Source": "tp05_Huberman_Rozenbeim_Dyner",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\css\\site.css",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\favicon.ico",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\avion.jpeg",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\avion.jpeg",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/avion.jpeg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\avion.jpeg"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Brian.jpg",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Brian.jpg",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/Brian.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Brian.jpg"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\carleto_oficina.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/carleto_oficina.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\carleto_oficina.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\derrota.jpg",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\derrota.jpg",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/derrota.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\derrota.jpg"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\estadio.webp",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\estadio.webp",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/estadio.webp",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\estadio.webp"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\favela.jfif",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\favela.jfif",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/favela.jfif",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\favela.jfif"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\final2018.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\final2018.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/final2018.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\final2018.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\florentinoFavela.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\florentinoFavela.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/florentinoFavela.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\florentinoFavela.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Iachu.jpg",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Iachu.jpg",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/Iachu.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Iachu.jpg"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\James.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\James.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/James.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\James.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Juancho.jpg",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Juancho.jpg",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/Juancho.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Juancho.jpg"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\juegoCaras.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\juegoCaras.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/juegoCaras.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\juegoCaras.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Kaka.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\Kaka.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/Kaka.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Kaka.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\LOGOCOMPLETO.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\LOGOCOMPLETO.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/LOGOCOMPLETO.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\LOGOCOMPLETO.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\nazario.png",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\nazario.png",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/nazario.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\nazario.png"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\victoria.jfif",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\Img\\victoria.jfif",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "Img/victoria.jfif",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\victoria.jfif"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\js\\site.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "tp05_Huberman_Rozenbeim_Dyner",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HUBERMAN\\Downloads\\escapeee\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48313765\\Downloads\\SALA\\TP-05_Dyner_Huberman_Rozenbeim_\\wwwroot\\",
       "BasePath": "_content/tp05_Huberman_Rozenbeim_Dyner",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

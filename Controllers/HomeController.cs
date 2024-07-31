@@ -141,6 +141,10 @@ public class HomeController : Controller
         }
         return View("Habitacion0");
     }
+    public IActionResult Derrota(){
+
+        return View("Derrota");
+    }
 
        public IActionResult Juego1(string adivinar)
     {

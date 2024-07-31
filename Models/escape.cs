@@ -12,7 +12,7 @@ static class escape
         incognitasSalas = new string [4];
         incognitasSalas [0] = "RM1524";
         incognitasSalas [1] = "VRR";
-        incognitasSalas [2] = "KRN";
+        incognitasSalas [2] = "KNR";
         incognitasSalas [3] = "MATHEUS DA SILVA RIVEIRO JR";
     }
 
